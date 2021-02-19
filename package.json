@@ -1,6 +1,6 @@
 {
   "name": "@iamsaquib8/finder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CSS Selector Generator",
   "repository": "iamsaquib8/finder",
   "homepage": "https://github.com/iamsaquib8/finder",
@@ -21,7 +21,7 @@
     "start": "tsc -w",
     "test": "tsc && ava",
     "prepare": "tsc",
-    "release": "release-it --access public",
+    "release": "release-it --access public --config .release-it.json",
     "size": "minify pkg/finder.js --sourceType module | gzip-size"
   },
   "devDependencies": {
