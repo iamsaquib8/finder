@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "es2017",
+    "module": "commonjs",
+    "target": "es2019",
     "lib": [
-      "es2020",
+      "es2019",
       "dom"
     ],
+    "outDir": "pkg",
     "strict": true,
     "declaration": true,
     "noUnusedLocals": true

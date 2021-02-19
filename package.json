@@ -1,10 +1,10 @@
 {
-  "name": "@medv/finder",
-  "version": "2.0.0",
+  "name": "@iamsaquib8/finder",
+  "version": "1.0.0",
   "description": "CSS Selector Generator",
-  "repository": "antonmedv/finder",
-  "homepage": "https://github.com/antonmedv/finder",
-  "author": "Anton Medvedev <anton@medv.io>",
+  "repository": "iamsaquib8/finder",
+  "homepage": "https://github.com/iamsaquib8/finder",
+  "author": "Saquib Ul Hassan <saquibulhassan6@gmail.com>",
   "license": "MIT",
   "keywords": [
     "css",
@@ -22,16 +22,16 @@
     "test": "tsc && ava",
     "prepare": "tsc",
     "release": "release-it --access public",
-    "size": "minify finder.js --sourceType module | gzip-size"
+    "size": "minify pkg/finder.js --sourceType module | gzip-size"
   },
   "devDependencies": {
-    "ava": "^3.8.2",
+    "ava": "^3.15.0",
+    "babel-minify": "^0.5.1",
     "browser-env": "^3.3.0",
     "esm": "^3.2.25",
     "gzip-size-cli": "*",
-    "babel-minify": "*",
     "release-it": "^13.6.1",
-    "typescript": "3.9.3"
+    "typescript": "^4.1.5"
   },
   "ava": {
     "require": [
