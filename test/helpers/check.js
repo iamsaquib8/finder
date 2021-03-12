@@ -1,4 +1,4 @@
-const {finder} = require('../..')
+const {finder} = require('../../pkg')
 
 module.exports = function check(t, html, config = void 0) {
   document.write(html)

@@ -17,6 +17,9 @@
     "*.ts",
     "*.js"
   ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "scripts": {
     "start": "tsc -w",
     "test": "tsc && ava",
